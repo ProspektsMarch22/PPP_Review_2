@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 //#include "fila_double.h"
 
@@ -69,7 +70,7 @@ double retiraElemento(tipoFila * fila){
         free(temp);
         return d1;
     }
-    return -1;
+    return NAN;
 }
 
 //Alternativa não-destrutiva para mostrar os elementos da fila de espera
