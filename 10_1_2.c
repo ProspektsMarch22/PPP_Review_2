@@ -68,7 +68,7 @@ int * matrixMult(int * matrix, int c, int n){
     int * matrizNova = (int *) malloc(n * n * sizeof(int));
     if(matrizNova == NULL){
         printf("Erro: Memória insuficiente na função matrixMult.\n");
-        return NULL;  // Retorna NULL ao invés de `matrix`
+        return NULL; 
     }
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
